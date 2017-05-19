@@ -1,0 +1,23 @@
+Basic Finance COE Operation
+
+(1) Copy the Previous month Cash Summary Forecast Excel file(located in shared folder) to temporary folder.
+(1) Open Previous month Cash Summary Forecast Excel file.
+(2) Go to sheet named "Flash" and read table "BUSINESS CASHFLOW  - Q1   ( m€)" (range B3 to J19) data into a datatable.
+(3) Output the datatable through message box.
+(4) Make a new excel file named "Temporay.xlsx" and write that datatable using write range of excel activity.
+(5) Delete "Temporary.xlsx".
+(6) Move Previous month Cash Summary Forecast Excel file back to shared folder in current month.
+
+Note : -- This example have to be done using sequence only, no flowchart.
+	   -- Logs should be used during start/end of various operations.
+	   -- Use sequence inside sequence for grouping various similar operation.
+	   -- No hardcoded value should be used in automation. All configuration settings/values should be 
+	      declared inside XML file.
+	   -- Your automation should read this XML file and must create various path required in automation.	
+	  
+
+Shared path - >   D:\Users\username\Documents\FinanceCOE\SharedPath\
+				  Replace "username" with current username and append current year and previous month(MMM)
+				  For eg  D:\Users\rohmalho\Documents\FinanceCOE\SharedPath\2017\Apr(For user with username "rohmalho")
+				 
+Temporary path -> You need to create temporary file path. 				
